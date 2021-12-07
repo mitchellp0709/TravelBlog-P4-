@@ -1,0 +1,80 @@
+2021-12-07 18:02:21 - INFO - "GET / HTTP/1.1" 200 1219
+2021-12-07 18:02:21 - INFO - "GET /static/style.css HTTP/1.1" 200 648
+2021-12-07 18:02:32 - ERROR - SyntaxError in 0 on line 0
+2021-12-07 18:02:32 - ERROR - "GET /locations HTTP/1.1" 500 1039336
+2021-12-07 18:03:45 - ERROR - SyntaxError in 0 on line 0
+2021-12-07 18:03:45 - ERROR - "GET /locations HTTP/1.1" 500 1039387
+2021-12-07 18:05:15 - ERROR - SyntaxError in 0 on line 0
+2021-12-07 18:05:15 - ERROR - "GET /locations HTTP/1.1" 500 1039643
+2021-12-07 18:05:40 - ERROR - SyntaxError in 0 on line 0
+2021-12-07 18:05:40 - ERROR - "GET /locations/1 HTTP/1.1" 500 1040484
+2021-12-07 18:06:30 - ERROR - SyntaxError in 0 on line 0
+2021-12-07 18:06:30 - ERROR - "GET /locations/1 HTTP/1.1" 500 1040535
+2021-12-07 18:07:15 - ERROR - SyntaxError in 0 on line 0
+2021-12-07 18:07:15 - ERROR - "GET /locations HTTP/1.1" 500 1039636
+2021-12-07 18:07:26 - ERROR - SyntaxError in 0 on line 0
+2021-12-07 18:07:26 - ERROR - "GET /locations HTTP/1.1" 500 1039643
+2021-12-07 18:08:32 - ERROR - SyntaxError in 0 on line 0
+2021-12-07 18:08:32 - ERROR - "GET /locations HTTP/1.1" 500 1039513
+2021-12-07 18:09:18 - ERROR - SyntaxError in 0 on line 0
+2021-12-07 18:09:18 - ERROR - "GET /locations HTTP/1.1" 500 1039643
+2021-12-07 18:11:40 - ERROR - SyntaxError in 0 on line 0
+2021-12-07 18:11:40 - ERROR - "GET /locations HTTP/1.1" 500 1039643
+2021-12-07 18:14:19 - ERROR - SyntaxError in 0 on line 0
+2021-12-07 18:14:19 - ERROR - "GET /locations HTTP/1.1" 500 1039257
+2021-12-07 18:18:02 - ERROR - SyntaxError in 0 on line 0
+2021-12-07 18:18:02 - ERROR - "GET /locations HTTP/1.1" 500 1039387
+2021-12-07 18:18:19 - ERROR - SyntaxError in 0 on line 0
+2021-12-07 18:18:19 - ERROR - "GET /locations HTTP/1.1" 500 1038838
+2021-12-07 18:18:31 - ERROR - SyntaxError in 0 on line 0
+2021-12-07 18:18:31 - ERROR - "GET /locations HTTP/1.1" 500 1039387
+2021-12-07 18:35:32 - ERROR - SyntaxError in 0 on line 0
+2021-12-07 18:35:32 - ERROR - "GET /locations HTTP/1.1" 500 1040974
+2021-12-07 18:36:26 - ERROR - SyntaxError in 0 on line 0
+2021-12-07 18:36:26 - ERROR - "GET /locations HTTP/1.1" 500 1040923
+2021-12-07 18:36:50 - ERROR - SyntaxError in 0 on line 0
+2021-12-07 18:36:50 - ERROR - "GET /locations HTTP/1.1" 500 1040974
+2021-12-07 18:41:09 - ERROR - SyntaxError in 0 on line 0
+2021-12-07 18:41:09 - ERROR - "GET /locations HTTP/1.1" 500 1040718
+2021-12-07 18:43:45 - ERROR - SyntaxError in 0 on line 0
+2021-12-07 18:43:45 - ERROR - "GET /locations/1 HTTP/1.1" 500 1041685
+2021-12-07 18:51:27 - ERROR - SyntaxError in 0 on line 0
+2021-12-07 18:51:27 - ERROR - "GET /locations HTTP/1.1" 500 1040837
+2021-12-07 18:52:23 - ERROR - SyntaxError in 0 on line 0
+2021-12-07 18:52:23 - ERROR - "GET /locations/1 HTTP/1.1" 500 1041866
+2021-12-07 18:52:23 - ERROR - JSONDecodeError in /Users/mitchell/.pyenv/versions/3.9.4/lib/python3.9/json/decoder.py on line 355
+2021-12-07 18:52:23 - ERROR - "POST /locations HTTP/1.1" 500 1040986
+2021-12-07 18:53:01 - ERROR - SyntaxError in 0 on line 0
+2021-12-07 18:53:01 - ERROR - "POST /locations HTTP/1.1" 500 1040093
+2021-12-07 18:53:22 - ERROR - JSONDecodeError in /Users/mitchell/.pyenv/versions/3.9.4/lib/python3.9/json/decoder.py on line 355
+2021-12-07 18:53:22 - ERROR - "POST /locations HTTP/1.1" 500 1041874
+2021-12-07 18:53:32 - ERROR - SyntaxError in 0 on line 0
+2021-12-07 18:53:32 - ERROR - "GET /locations/1 HTTP/1.1" 500 1041866
+2021-12-07 18:55:30 - ERROR - SyntaxError in 0 on line 0
+2021-12-07 18:55:30 - ERROR - "GET /locations HTTP/1.1" 500 1040974
+2021-12-07 18:57:32 - ERROR - SyntaxError in 0 on line 0
+2021-12-07 18:57:32 - ERROR - "GET /locations HTTP/1.1" 500 1040844
+2021-12-07 18:58:49 - INFO - "GET /locations HTTP/1.1" 200 2020
+2021-12-07 18:58:49 - INFO - "GET /favicon.ico HTTP/1.1" 304 0
+2021-12-07 18:59:23 - ERROR - JSONDecodeError in /Users/mitchell/.pyenv/versions/3.9.4/lib/python3.9/json/decoder.py on line 355
+2021-12-07 18:59:23 - ERROR - "POST /locations HTTP/1.1" 500 1041484
+2021-12-07 19:01:54 - ERROR - "POST /locations HTTP/1.1" 500 59
+2021-12-07 19:02:08 - ERROR - "POST /locations HTTP/1.1" 500 59
+2021-12-07 19:02:08 - INFO - "POST /locations HTTP/1.1" 200 170
+2021-12-07 19:02:08 - INFO - "GET /locations HTTP/1.1" 200 2192
+2021-12-07 19:02:08 - INFO - "GET /favicon.ico HTTP/1.1" 304 0
+2021-12-07 19:02:08 - INFO - "POST /locations HTTP/1.1" 200 169
+2021-12-07 19:02:08 - INFO - "GET /locations HTTP/1.1" 200 2360
+2021-12-07 19:02:08 - INFO - "GET /favicon.ico HTTP/1.1" 304 0
+2021-12-07 19:07:11 - INFO - "GET /locations/1 HTTP/1.1" 200 238
+2021-12-07 19:07:11 - INFO - "GET /locations/9 HTTP/1.1" 200 170
+2021-12-07 19:07:11 - INFO - "PUT /locations/9 HTTP/1.1" 200 2
+2021-12-07 19:07:11 - INFO - "GET /locations/9 HTTP/1.1" 200 168
+2021-12-07 19:07:11 - INFO - "GET /favicon.ico HTTP/1.1" 304 0
+2021-12-07 19:11:20 - INFO - "GET /locations HTTP/1.1" 200 2358
+2021-12-07 19:11:20 - INFO - "GET /locations HTTP/1.1" 200 2358
+2021-12-07 19:11:20 - INFO - "GET /favicon.ico HTTP/1.1" 304 0
+2021-12-07 19:11:31 - ERROR - ContainerError in 0 on line 0
+2021-12-07 19:11:44 - ERROR - ContainerError in 0 on line 0
+2021-12-07 19:11:57 - ERROR - ContainerError in 0 on line 0
+2021-12-07 19:12:25 - INFO - "DELETE /locations/8 HTTP/1.1" 200 264
