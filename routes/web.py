@@ -10,5 +10,21 @@ ROUTES = [
       Post("/", "LocationController@create").name("create"),
       Put("/@id", "LocationController@update").name("update"),
       Delete("/@id", "LocationController@destroy").name("destroy"),
-    ],prefix="/locations", name="locations")
-]
+    ],prefix="/locations", name="locations"),
+    
+    RouteGroup([
+      Post("/login","AuthController@login").name("login"),
+      Post("/signup","AuthController@signup").name("signup"),
+      Post("logout","AuthController@logout").name("logout"),
+      Get("/all","AuthController@users").name("all")
+    ],prefix="/auth", name="auth"),
+    
+    RouteGroup([
+      Post("/","LocationController@create_post").name("create"),
+      Get("/","LocationController@all_posts").name("all"),
+      Get("/@id","LocationController@show_post").name("show"),
+      Put("/@id", "LocationController@update_post").name("update"),
+      Delete("/@id", "LocationController@destroy").name("destroy"),
+    ],prefix="/posts",name="posts")
+    
+  ]
