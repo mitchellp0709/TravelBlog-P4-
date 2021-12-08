@@ -54,8 +54,7 @@ class LocationController(Controller):
         name = self.request.input("name")
         description=self.request.input("description")
         image=self.request.input("image")
-        visited=self.request.input("visited")
-        location = Location.where("id",id).update({"name":name,"description":description,"image":image,"visited":visited})
+        location = Location.where("id",id).update({"name":name,"description":description,"image":image})
         return location
         
         
@@ -71,4 +70,43 @@ class LocationController(Controller):
         Location.where("id",id).delete()
         return location
 
-        
+
+
+
+  #All added routes with the user added
+    def create_post(self):
+      name = self.request.input("name")
+      description=self.request.input("description")
+      image=self.request.input("image")
+      user = self.request.user()
+      print(user)
+      location = Location.create(name=name,description=description,image=image,user_id=user["id"])
+      return location
+    
+    def all_posts(self):
+      return Location.all()
+    
+    def show_post(self):
+      id= self.request.param("id")
+      return Location.find(id)
+    
+    def update_post(self):
+        """Create a new resource listing
+        ex. Post target to create new Model
+            Post().route("/store", LocationController)
+        """
+        id=self.request.param("id")
+        name = self.request.input("name")
+        description=self.request.input("description")
+        image=self.request.input("image")
+        location = Location.where("id",id).update({"name":name,"description":description,"image":image})
+        return location
+      
+    def destroy_post(self):
+        """Delete an existing resource listing
+        ex. Delete().route("/destroy", LocationController)
+        """
+        id = self.request.param("id")
+        location= Location.where("id",id).get()
+        Location.where("id",id).delete()
+        return location
