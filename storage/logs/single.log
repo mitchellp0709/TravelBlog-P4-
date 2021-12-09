@@ -199,3 +199,18 @@
 2021-12-09 15:33:58 - INFO - "GET /auth/singleuser HTTP/1.1" 200 5
 2021-12-09 15:33:58 - INFO - "POST /auth/login HTTP/1.1" 200 274
 2021-12-09 15:33:58 - INFO - "GET /auth/singleuser HTTP/1.1" 200 274
+2021-12-09 16:03:00 - INFO - "GET /posts HTTP/1.1" 200 340
+2021-12-09 16:03:00 - INFO - "GET /posts HTTP/1.1" 200 340
+2021-12-09 16:07:15 - INFO - "GET / HTTP/1.1" 200 1219
+2021-12-09 16:07:15 - INFO - "GET /static/style.css HTTP/1.1" 304 0
+2021-12-09 16:07:15 - INFO - "GET /posts HTTP/1.1" 200 340
+2021-12-09 16:07:15 - INFO - "GET /posts HTTP/1.1" 200 340
+2021-12-09 16:07:15 - INFO - "GET /favicon.ico HTTP/1.1" 304 0
+2021-12-09 16:14:43 - ERROR - AttributeError in /Users/mitchell/development/seir_penguin/projects/project4/backend/app/http/controllers/AuthController.py on line 41
+2021-12-09 16:14:43 - ERROR - "GET /auth/allposts HTTP/1.1" 500 1046606
+2021-12-09 16:18:01 - ERROR - AttributeError in 0 on line 0
+2021-12-09 16:18:01 - ERROR - "GET /auth/allposts HTTP/1.1" 500 1048073
+2021-12-09 16:18:53 - INFO - "GET /auth/allposts HTTP/1.1" 200 340
+2021-12-09 16:18:53 - INFO - "GET /auth/allposts HTTP/1.1" 200 340
+2021-12-09 16:20:20 - ERROR - AttributeError in /Users/mitchell/development/seir_penguin/projects/project4/backend/app/http/controllers/AuthController.py on line 41
+2021-12-09 16:20:20 - ERROR - "GET /auth/allposts HTTP/1.1" 500 1046586

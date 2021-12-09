@@ -86,6 +86,8 @@ class LocationController(Controller):
     def all_posts(self):
       return Location.all()
     
+   
+    
     def show_post(self):
       id= self.request.param("id")
       return Location.find(id)

@@ -5,6 +5,7 @@ from masonite.view import View
 from masonite.controllers import Controller
 from masonite.auth import Auth
 from app.User import User
+from app.Location import Location
 
 
 class AuthController(Controller):
@@ -36,5 +37,8 @@ class AuthController(Controller):
     def users(self):
       return User.all()
 
-    def single_user(self):
-      return self.request.user()
+    def all_posts(self):
+      id = self.request.user().id
+      posts=Location.where("user_id",id).get()
+      return posts
+    
