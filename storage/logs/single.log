@@ -189,3 +189,13 @@
 2021-12-08 23:08:22 - INFO - "DELETE /posts/3 HTTP/1.1" 200 178
 2021-12-08 23:08:22 - INFO - "GET /posts HTTP/1.1" 200 340
 2021-12-08 23:08:22 - INFO - "GET /favicon.ico HTTP/1.1" 304 0
+2021-12-09 15:31:14 - INFO - "GET / HTTP/1.1" 200 1219
+2021-12-09 15:31:14 - INFO - "GET /static/style.css HTTP/1.1" 304 0
+2021-12-09 15:33:58 - INFO - "GET /auth/singleuser HTTP/1.1" 200 5
+2021-12-09 15:33:58 - INFO - "GET /auth/all HTTP/1.1" 200 788
+2021-12-09 15:33:58 - INFO - "POST /auth/login HTTP/1.1" 200 274
+2021-12-09 15:33:58 - INFO - "GET /auth/singleuser HTTP/1.1" 200 274
+2021-12-09 15:33:58 - INFO - "GET /auth/singleuser HTTP/1.1" 200 274
+2021-12-09 15:33:58 - INFO - "GET /auth/singleuser HTTP/1.1" 200 5
+2021-12-09 15:33:58 - INFO - "POST /auth/login HTTP/1.1" 200 274
+2021-12-09 15:33:58 - INFO - "GET /auth/singleuser HTTP/1.1" 200 274

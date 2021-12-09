@@ -16,7 +16,8 @@ ROUTES = [
       Post("/login","AuthController@login").name("login"),
       Post("/signup","AuthController@signup").name("signup"),
       Post("logout","AuthController@logout").name("logout"),
-      Get("/all","AuthController@users").name("all")
+      Get("/all","AuthController@users").name("all"),
+      Get("/singleuser","AuthController@single_user").name("singleuser")
     ],prefix="/auth", name="auth"),
     
     RouteGroup([
