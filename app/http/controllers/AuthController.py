@@ -35,3 +35,6 @@ class AuthController(Controller):
     
     def users(self):
       return User.all()
+
+    def single_user(self):
+      return self.request.user()
