@@ -79,7 +79,7 @@ class LocationController(Controller):
       description=self.request.input("description")
       image=self.request.input("image")
       user = self.request.user()
-      location = Location.create(name=name,description=description,image=image,user_id=user.id)
+      location = Location.create(name=name,description=description,image=image,user_id=user["id"])
       return location
     
     def all_posts(self):
