@@ -37,8 +37,5 @@ class AuthController(Controller):
     def users(self):
       return User.all()
 
-    def all_posts(self):
-      id = self.request.user().id
-      posts=Location.where("user_id",id).get()
-      return posts
+    
     

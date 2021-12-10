@@ -214,3 +214,44 @@
 2021-12-09 16:18:53 - INFO - "GET /auth/allposts HTTP/1.1" 200 340
 2021-12-09 16:20:20 - ERROR - AttributeError in /Users/mitchell/development/seir_penguin/projects/project4/backend/app/http/controllers/AuthController.py on line 41
 2021-12-09 16:20:20 - ERROR - "GET /auth/allposts HTTP/1.1" 500 1046586
+2021-12-09 18:10:40 - WARNING - "GET /postsauth/allposts HTTP/1.1" 404 1536
+2021-12-09 18:10:40 - WARNING - "GET /postsauth/allposts HTTP/1.1" 404 1536
+2021-12-09 18:10:40 - WARNING - "GET /postsauth/allposts HTTP/1.1" 404 1536
+2021-12-09 18:10:40 - WARNING - "GET /postsauth/allposts HTTP/1.1" 404 1536
+2021-12-09 18:10:40 - WARNING - "GET /postsauth/allposts HTTP/1.1" 404 1536
+2021-12-09 18:10:40 - INFO - "GET /posts HTTP/1.1" 200 525
+2021-12-10 15:43:32 - WARNING - "GET /postsauth/allposts HTTP/1.1" 404 1536
+2021-12-10 15:43:47 - ERROR - AttributeError in /Users/mitchell/development/seir_penguin/projects/project4/backend/app/http/controllers/AuthController.py on line 41
+2021-12-10 15:43:47 - ERROR - "GET /auth/allposts HTTP/1.1" 500 1046205
+2021-12-10 15:43:55 - ERROR - AttributeError in /Users/mitchell/development/seir_penguin/projects/project4/backend/app/http/controllers/AuthController.py on line 41
+2021-12-10 15:43:55 - ERROR - "GET /auth/allposts HTTP/1.1" 500 1046205
+2021-12-10 16:00:35 - ERROR - AttributeError in /Users/mitchell/development/seir_penguin/projects/project4/backend/app/http/controllers/AuthController.py on line 41
+2021-12-10 16:00:35 - ERROR - "GET /auth/allposts HTTP/1.1" 500 1046205
+2021-12-10 16:01:28 - ERROR - AttributeError in /Users/mitchell/development/seir_penguin/projects/project4/backend/app/http/controllers/AuthController.py on line 41
+2021-12-10 16:01:28 - ERROR - "GET /auth/allposts HTTP/1.1" 500 1046205
+2021-12-10 16:01:28 - ERROR - "OPTIONS /auth/loginlogin HTTP/1.1" 500 59
+2021-12-10 16:03:42 - ERROR - AttributeError in /Users/mitchell/development/seir_penguin/projects/project4/backend/app/http/controllers/AuthController.py on line 41
+2021-12-10 16:03:42 - ERROR - "GET /auth/allposts HTTP/1.1" 500 1046205
+2021-12-10 16:03:54 - ERROR - AttributeError in /Users/mitchell/development/seir_penguin/projects/project4/backend/app/http/controllers/AuthController.py on line 41
+2021-12-10 16:03:54 - ERROR - "GET /auth/allposts HTTP/1.1" 500 1046205
+2021-12-10 16:03:58 - ERROR - AttributeError in /Users/mitchell/development/seir_penguin/projects/project4/backend/app/http/controllers/AuthController.py on line 41
+2021-12-10 16:03:58 - ERROR - "GET /auth/allposts HTTP/1.1" 500 1046205
+2021-12-10 16:04:32 - ERROR - AttributeError in /Users/mitchell/development/seir_penguin/projects/project4/backend/app/http/controllers/AuthController.py on line 41
+2021-12-10 16:04:32 - ERROR - "GET /auth/allposts HTTP/1.1" 500 1046205
+2021-12-10 16:04:36 - ERROR - AttributeError in /Users/mitchell/development/seir_penguin/projects/project4/backend/app/http/controllers/AuthController.py on line 41
+2021-12-10 16:04:36 - ERROR - "GET /auth/allposts HTTP/1.1" 500 1046205
+2021-12-10 16:04:36 - ERROR - "OPTIONS /auth/login HTTP/1.1" 500 59
+2021-12-10 16:06:01 - INFO - "GET / HTTP/1.1" 200 1219
+2021-12-10 16:06:01 - INFO - "GET /favicon.ico HTTP/1.1" 304 0
+2021-12-10 16:06:01 - INFO - "GET /auth/all HTTP/1.1" 200 788
+2021-12-10 16:07:35 - ERROR - AttributeError in /Users/mitchell/development/seir_penguin/projects/project4/backend/app/http/controllers/AuthController.py on line 41
+2021-12-10 16:07:35 - ERROR - "GET /auth/allposts HTTP/1.1" 500 1046205
+2021-12-10 16:07:39 - ERROR - AttributeError in /Users/mitchell/development/seir_penguin/projects/project4/backend/app/http/controllers/AuthController.py on line 41
+2021-12-10 16:07:39 - ERROR - "GET /auth/allposts HTTP/1.1" 500 1046205
+2021-12-10 16:07:39 - ERROR - "OPTIONS /auth/login HTTP/1.1" 500 59
+2021-12-10 16:10:43 - INFO - "POST /auth/login HTTP/1.1" 200 274
+2021-12-10 16:11:58 - ERROR - AttributeError in /Users/mitchell/development/seir_penguin/projects/project4/backend/app/http/controllers/AuthController.py on line 41
+2021-12-10 16:11:58 - ERROR - "GET /auth/allposts HTTP/1.1" 500 1046205
+2021-12-10 16:12:00 - ERROR - AttributeError in /Users/mitchell/development/seir_penguin/projects/project4/backend/app/http/controllers/AuthController.py on line 41
+2021-12-10 16:12:00 - ERROR - "GET /auth/allposts HTTP/1.1" 500 1046205
+2021-12-10 16:12:00 - ERROR - "OPTIONS /auth/login HTTP/1.1" 500 59

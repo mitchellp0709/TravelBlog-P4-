@@ -111,3 +111,8 @@ class LocationController(Controller):
         location= Location.where("id",id).get()
         Location.where("id",id).delete()
         return location
+      
+    def all_posts(self):
+      id = self.request.user().id
+      posts=Location.where("user_id",id).get()
+      return posts
