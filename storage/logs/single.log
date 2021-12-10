@@ -255,3 +255,53 @@
 2021-12-10 16:12:00 - ERROR - AttributeError in /Users/mitchell/development/seir_penguin/projects/project4/backend/app/http/controllers/AuthController.py on line 41
 2021-12-10 16:12:00 - ERROR - "GET /auth/allposts HTTP/1.1" 500 1046205
 2021-12-10 16:12:00 - ERROR - "OPTIONS /auth/login HTTP/1.1" 500 59
+2021-12-10 18:53:59 - ERROR - AttributeError in /Users/mitchell/development/seir_penguin/projects/project4/backend/app/http/controllers/LocationController.py on line 116
+2021-12-10 18:53:59 - ERROR - "GET /posts HTTP/1.1" 500 1048329
+2021-12-10 18:54:04 - ERROR - AttributeError in /Users/mitchell/development/seir_penguin/projects/project4/backend/app/http/controllers/LocationController.py on line 116
+2021-12-10 18:54:04 - ERROR - "GET /posts HTTP/1.1" 500 1048329
+2021-12-10 18:54:20 - ERROR - AttributeError in /Users/mitchell/development/seir_penguin/projects/project4/backend/app/http/controllers/LocationController.py on line 116
+2021-12-10 18:54:20 - ERROR - "GET /posts HTTP/1.1" 500 1048710
+2021-12-10 18:54:52 - INFO - "GET /posts HTTP/1.1" 200 525
+2021-12-10 18:54:52 - INFO - "GET /favicon.ico HTTP/1.1" 304 0
+2021-12-10 18:55:14 - INFO - "GET /posts HTTP/1.1" 200 525
+2021-12-10 18:55:14 - INFO - "GET /posts HTTP/1.1" 200 525
+2021-12-10 18:55:14 - INFO - "GET /posts HTTP/1.1" 200 525
+2021-12-10 18:55:14 - INFO - "GET /posts HTTP/1.1" 200 525
+2021-12-10 18:55:14 - INFO - "GET /posts HTTP/1.1" 200 525
+2021-12-10 18:55:14 - INFO - "GET /posts HTTP/1.1" 200 525
+2021-12-10 18:55:14 - INFO - "GET /posts HTTP/1.1" 200 525
+2021-12-10 18:55:14 - INFO - "GET /posts HTTP/1.1" 200 525
+2021-12-10 18:55:14 - INFO - "GET /posts HTTP/1.1" 200 525
+2021-12-10 18:55:14 - INFO - "GET /posts HTTP/1.1" 200 525
+2021-12-10 18:55:14 - INFO - "GET /posts HTTP/1.1" 200 525
+2021-12-10 18:55:14 - INFO - "GET /posts HTTP/1.1" 200 525
+2021-12-10 18:55:14 - INFO - "GET /posts HTTP/1.1" 200 525
+2021-12-10 18:55:14 - INFO - "GET /posts HTTP/1.1" 200 525
+2021-12-10 18:55:14 - INFO - "GET /posts HTTP/1.1" 200 525
+2021-12-10 18:55:14 - INFO - "GET /posts HTTP/1.1" 200 525
+2021-12-10 18:55:14 - INFO - "GET /posts HTTP/1.1" 200 525
+2021-12-10 18:55:14 - INFO - "GET /posts HTTP/1.1" 200 525
+2021-12-10 18:55:14 - INFO - "GET /posts HTTP/1.1" 200 525
+2021-12-10 18:55:14 - INFO - "GET /posts HTTP/1.1" 200 525
+2021-12-10 18:55:14 - INFO - "GET /posts HTTP/1.1" 200 525
+2021-12-10 18:55:14 - INFO - "GET /posts HTTP/1.1" 200 525
+2021-12-10 18:55:14 - INFO - "GET /posts HTTP/1.1" 200 525
+2021-12-10 18:55:14 - INFO - "GET /posts HTTP/1.1" 200 525
+2021-12-10 18:55:14 - INFO - "GET /posts HTTP/1.1" 200 525
+2021-12-10 18:55:14 - INFO - "GET /posts HTTP/1.1" 200 525
+2021-12-10 18:55:14 - INFO - "GET /posts HTTP/1.1" 200 525
+2021-12-10 18:55:14 - ERROR - "OPTIONS /posts/1 HTTP/1.1" 500 59
+2021-12-10 18:55:14 - INFO - "GET /posts HTTP/1.1" 200 525
+2021-12-10 19:50:56 - INFO - "GET /posts HTTP/1.1" 200 525
+2021-12-10 19:50:56 - INFO - "GET /posts HTTP/1.1" 200 525
+2021-12-10 19:50:56 - INFO - "GET /posts HTTP/1.1" 200 525
+2021-12-10 19:50:56 - INFO - "GET /posts HTTP/1.1" 200 525
+2021-12-10 19:50:56 - INFO - "GET /posts HTTP/1.1" 200 525
+2021-12-10 19:50:56 - INFO - "GET /posts HTTP/1.1" 200 525
+2021-12-10 19:50:56 - INFO - "GET /posts HTTP/1.1" 200 525
+2021-12-10 19:50:56 - INFO - "GET /posts HTTP/1.1" 200 525
+2021-12-10 19:50:56 - INFO - "GET /posts HTTP/1.1" 200 525
+2021-12-10 19:50:56 - INFO - "GET /auth/all HTTP/1.1" 200 788
+2021-12-10 19:50:56 - INFO - "GET /favicon.ico HTTP/1.1" 304 0
+2021-12-10 19:50:56 - ERROR - "OPTIONS /posts/1 HTTP/1.1" 500 59
+2021-12-10 19:50:56 - INFO - "GET /posts HTTP/1.1" 200 525

@@ -27,7 +27,6 @@ ROUTES = [
       Get("/@id","LocationController@show_post").name("show"),
       Put("/@id", "LocationController@update_post").name("update"),
       Delete("/@id", "LocationController@destroy").name("destroy"),
-      Get("/allposts","LocationController@all_posts").name("allposts")
-    ],prefix="/posts",name="posts",middleware=["auth"])
+    ],prefix="/posts",name="posts")
     
   ]
