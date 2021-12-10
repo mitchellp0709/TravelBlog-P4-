@@ -19,6 +19,7 @@ ROUTES = [
       Get("/all","AuthController@users").name("all"),
       
     ],prefix="/auth", name="auth"),
+    Post("/login","AuthController@login").name("login"),
     
     RouteGroup([
       Post("/","LocationController@create_post").name("create"),
