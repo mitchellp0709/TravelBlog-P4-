@@ -78,9 +78,10 @@ class LocationController(Controller):
       name = self.request.input("name")
       description=self.request.input("description")
       image=self.request.input("image")
-      user = self.request.user()
-      location = Location.create(name=name,description=description,image=image)
-      """user_id=user["id"] cut out from end of last line"""
+      #user = self.request.user()
+      user_id=self.request.input("user_id")
+      location = Location.create(name=name,description=description,image=image, user_id=user_id)
+      """user_id=user["id"] cut out from end of last"""
       return location
     
     def all_posts(self):
