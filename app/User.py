@@ -11,7 +11,7 @@ class User(Model):
 
     __auth__ = "username"
     
-    @has_many("id","user_id")
-    def locations(self):
-      from app.Location import Location
-      return Location
+    # @has_many("id","user_id")
+    # def locations(self):
+    #   from app.Location import Location
+    #   return Location
